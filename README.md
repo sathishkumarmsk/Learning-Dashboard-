@@ -4,6 +4,20 @@ A production-grade Android application developed with **Kotlin**, **Jetpack Comp
 
 ---
 
+## Demo Video & Walkthrough
+The video walkthrough demonstrates all 5 assignment requirements:
+- **Video File:** [Demo.mp4](./Demo.mp4) (4.5 MB, MP4)
+
+| Flow Demonstrated | Details |
+| :--- | :--- |
+| **1. Login Flow** | Authentication with validation, loading indicator, and mock API token |
+| **2. Course Dashboard** | List of courses showing instructors, dynamic progress percentages, and lesson counts |
+| **3. Course Details** | Syllabus view with completed (`✓ Completed`) and pending (`○ Pending`) lesson badges |
+| **4. Lesson Completion** | Interactive completion toggle triggering instantaneous progress recalculation across screens |
+| **5. Offline Behavior** | Disconnecting connectivity demonstrates seamless cache retrieval from Room & offline banner |
+
+---
+
 ## Technical Answers & Engineering Thinking
 
 ### 1. Architecture: Why did you choose your architecture?
@@ -80,6 +94,7 @@ If developing this architecture for **iOS/macOS**:
 
 ```
 LearningDashboard/
+├── Demo.mp4                                    <-- Recorded Demo Video (Login, Dashboard, Details, Offline)
 ├── app/
 │   ├── build/outputs/apk/debug/app-debug.apk   <-- Generated Android APK
 │   ├── src/
