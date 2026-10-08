@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "title": "Python Programming",
+    "instructor": "John Smith",
+    "lessons": [
+      { "id": 101, "title": "Introduction", "completed": true },
+      { "id": 102, "title": "Variables & Data Types", "completed": true },
+      { "id": 103, "title": "Functions", "completed": true },
+      { "id": 104, "title": "OOP", "completed": false },
+      { "id": 105, "title": "Modules & Packages", "completed": false }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Generative AI",
+    "instructor": "Sarah Williams",
+    "lessons": [
+      { "id": 201, "title": "What is Generative AI", "completed": true },
+      { "id": 202, "title": "Prompt Engineering", "completed": true },
+      { "id": 203, "title": "Embeddings", "completed": false },
+      { "id": 204, "title": "RAG Basics", "completed": false },
+      { "id": 205, "title": "Safety & Evaluation", "completed": false }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Full Stack Development",
+    "instructor": "David Brown",
+    "lessons": [
+      { "id": 301, "title": "HTTP & REST", "completed": true },
+      { "id": 302, "title": "Frontend Foundations", "completed": false },
+      { "id": 303, "title": "Databases", "completed": false },
+      { "id": 304, "title": "Auth", "completed": false }
+    ]
+  }
+]
